@@ -7,10 +7,8 @@
         "id": "f075ec199e508351",
         "type": "leaf",
         "state": {
-          "type": "image",
-          "state": {
-            "file": "Capture2.png"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -67,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Capture2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +84,8 @@
   },
   "active": "f075ec199e508351",
   "lastOpenFiles": [
+    "ADL Report.md",
     "Capture2.png",
-    "Capture3.png",
-    "ADL Report.md"
+    "Capture3.png"
   ]
 }
