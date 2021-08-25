@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "1312f514271bbb46",
+    "type": "split",
+    "children": [
+      {
+        "id": "f075ec199e508351",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "Capture2.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30728e9cb431078a",
+    "type": "split",
+    "children": [
+      {
+        "id": "604a8e19467d4495",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7475c7650f85d4e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "250abdb8a4f23a48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "56c8180da1e3fc62",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae13d62876e0ead",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2166abd3305c46e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Capture2.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f075ec199e508351",
+  "lastOpenFiles": [
+    "Capture2.png",
+    "Capture3.png",
+    "ADL Report.md"
+  ]
+}
