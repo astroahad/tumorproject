@@ -21,6 +21,17 @@ Selection of the the tumor
 ## t2
 
 ![](./assets/2021-08-26-11-36-32-image.png)
+![[Pasted image 20210826113900.png]]
+![[Pasted image 20210826113953.png]]
+
+
+
+
+##exp
+
+
+
+![](/Users/astroahad/Documents/GitHub/tumorproject/assets/2021-08-26-11-41-03-image.png)
 
 Using this approach, I was able to cherry pick tumor cells make a dataset of extremely high quality. 
 
