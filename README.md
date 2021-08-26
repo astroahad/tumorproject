@@ -1,9 +1,9 @@
-```javascript
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-```
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">15^2</script>
 
-- $e=mc^2$
-- 
+
+
+$15^2$
+
 - Preprocessing was one of the major part of the project. 
 
 ## Data Collection
