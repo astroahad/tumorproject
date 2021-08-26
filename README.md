@@ -2,7 +2,6 @@
 
 =======
 
-
 - Preprocessing was one of the major part of the project. 
 
 ## Data Collection
@@ -96,6 +95,18 @@ $\alpha$
 With an increase in the level of magnification, the pixel resolution doubles in resolution.
 
 Patch size 32 
+
+
+
+```xml
+<p float="left">
+  <img src="/img1.png" width="100" />
+![patch_zoom_0](README.assets/patch_zoom_0.png)
+
+  <img src="/img2.png" width="100" /> 
+  <img src="/img3.png" width="100" />
+</p>
+```
 
 ![patch_zoom_0](README.assets/patch_zoom_0.png)
 
