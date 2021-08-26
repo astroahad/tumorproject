@@ -36,6 +36,48 @@ This process allowed as to select train a model with a very high quality dataset
 
 As a result I only saw an accuracy of approximately 69% with the model showing a very hight tendency of overfitting.
 
+---
+
+## Basic CNN Model with Manual Annotations
+
+
+
+Model Specifications:
+
+Dataset Size = 110 for both tumor and non-tumor cells
+
+
+
+Validation Split = 0.2 
+
+Training Size = 88 
+
+Validation Size = 22
+
+Patch Size = 180 x 180
+
+Zoom Level = 0
+
+
+
+
+
+
+
+
+
+![Normal](README.assets/download.png)
+
+
+
+![Mix](README.assets/download (1).png)
+
+Since I was using the a Zoom Level of 0 (the highest resolution) I decided to use a relatively high patch size of 180 x 180.  In addition, a zoom level of 0 promised to give a greater localization of the tumor cells for our model.
+
+
+
+### Data Collection Approach with manual annotations
+
 Our model had prioritized quality of the data over the quantity. We were able to cherry pick the ideal patches by examining the tif file ourselves, and selectiong high quality patches. But it became clear that more quantity of data with fair to good quality would be preferred rather than a small dataset with the ideal quality 
 
  I tried data augmentation techniques to try to compensate for this issue, however this was not enough for our problem since the base dataset was too small to begin with 
