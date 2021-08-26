@@ -2,7 +2,11 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ```
 
-- $e=mc^2$
+```
+$e=mc^2$
+```
+
+- 
 - 
 - Preprocessing was one of the major part of the project. 
 
