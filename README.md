@@ -4,6 +4,15 @@
 
 $15^2$
 
+<<<<<<< HEAD
+=======
+```
+$e=mc^2$
+```
+
+- 
+- 
+>>>>>>> 500ee7d2242125a42ccc00f5eb6673fb165bb648
 - Preprocessing was one of the major part of the project. 
 
 ## Data Collection
