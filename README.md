@@ -1,3 +1,8 @@
+```javascript
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+```
+
+- 
 - Preprocessing was one of the major part of the project. 
 
 ## Data Collection
@@ -110,7 +115,22 @@ The Camelyon 16 dataset contains a total of 400 WSI files. The WSI .tif files co
 
 A Zoom level of 0 (which is the highes magnification level) would give us approximately 1 million by 1 million pixels to work.
 
-Because these 
+Because these files our so large, for my model i selected a subset of 10 WSI files which would give be enough data to work with. 
+
+Considering that each WSI file has \(10^6)
+
+
+
+```latex
+\(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+
+
+
+
+
+```
+
+
 
 
 
