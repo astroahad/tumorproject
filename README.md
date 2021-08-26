@@ -92,8 +92,83 @@ I needed a higer quantity of data to grasp complex features of tumor and non-tum
     
         -   [ Optionally Add a confusion matrix, f1 scores, precision, accuracy, type 1 & type 2 error for this model] 
 
+
+
+
+
+
+
+
+
+## Understanding the Tif Data 
+
+
+
+### Different Patch sizes and different Zoom levels 
+
+The Camelyon 16 dataset contains a total of 400 WSI files. The WSI .tif files contain a large amount of data. Each of these WSI files consist of magnification for 9 different levels. Correspondinly, with an increas in a level, the resolution of the image doubles, giving us twice the amount of data to work with. 
+
+A Zoom level of 0 (which is the highes magnification level) would give us approximately 1 million by 1 million pixels to work.
+
+Because these 
+
+
+
+
+
+With an increase in the level of magnification, the pixel resolution doubles in resolution.
+
+Patch size 32 
+
+
+
+![patch_zoom_0](README.assets/patch_zoom_0.png)
+
+![patch_zoom_1](README.assets/patch_zoom_1.png)
+
+![patch_zoom_2](README.assets/patch_zoom_2.png)
+
+![patch_zoom_3](README.assets/patch_zoom_3.png)
+
+![patch_zoom_4](README.assets/patch_zoom_4.png)
+
+![patch_zoom_5](README.assets/patch_zoom_5.png)
+
+![patch_zoom_6](README.assets/patch_zoom_6.png)
+
+![patch_zoom_7](README.assets/patch_zoom_7.png)
+
+![patch_zoom_8](README.assets/patch_zoom_8.png)
+
+![patch_zoom_9](README.assets/patch_zoom_9.png)
+
+
+
+Patch size 300
+
+![patch_zoom_0](README.assets/patch_zoom_0-9978188.png)
+
+![patch_zoom_1](README.assets/patch_zoom_1-9978188.png)
+
+![patch_zoom_2](README.assets/patch_zoom_2-9978188.png)
+
+![patch_zoom_3](README.assets/patch_zoom_3-9978188.png)
+
+![patch_zoom_4](README.assets/patch_zoom_4-9978188.png)
+
+![patch_zoom_5](README.assets/patch_zoom_5-9978188.png)
+
+![patch_zoom_6](README.assets/patch_zoom_6-9978188.png)
+
+![patch_zoom_7](README.assets/patch_zoom_7-9978188.png)
+
+![patch_zoom_8](README.assets/patch_zoom_8-9978188.png)
+
+
+
+- 
+- 
 - Second approach – for dataset/patch processing 
-  
   - It was clear that the data collection approach would be unsuitable for this type of problem  
   
   - The second approach we developed involved creating mask files of the CAMELYON dataset. 
