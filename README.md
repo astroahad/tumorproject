@@ -9,7 +9,11 @@
    For the Meastasis data points, I individually selected coordinate points in the image after looking at the boundary boxes that had been created by the pathologists.
 
 Image depticting tumor slide 08 opened in the ASAP software
-![[Screenshot 2021-08-24 001618.png]] ![[Capture2.png]]
+![[Screenshot 2021-08-24 001618.png]] 
+
+### capture
+
+![Capture2.png](/Users/astroahad/Documents/GitHub/tumorproject/assets/98b20fc05d11d5d0ef6be2d9fd91c6f1d9079522.png)
 
 Selection of the the tumor
 ![[Capture3.png]]
@@ -18,26 +22,11 @@ Selection of the the tumor
 
 ![](/Users/astroahad/Documents/GitHub/tumorproject/assets/b65536be5a53b3ec6ef974050b9b2380262b740f.png)
 
-## t2
-
-![](./assets/2021-08-26-11-36-32-image.png)
-![[Pasted image 20210826113900.png]]
-![[Pasted image 20210826113953.png]]
-
-
-
-
-##exp
-
-
-
-![](/Users/astroahad/Documents/GitHub/tumorproject/assets/2021-08-26-11-41-03-image.png)
-
 Using this approach, I was able to cherry pick tumor cells make a dataset of extremely high quality. 
 
 A similar strategy was adopted for marking the non-tumor patches. ASAP was used to mark points that were suitable examples of non tumor coordinates.
 
---- 
+---
 
 For the next step, I was able to write a Python script that would extract the coordinate points using the xml file produced by ASAP. The extracted points would then be used to create a set of umor and non-tumor patches based on the given coordinate points.
 
@@ -86,3 +75,17 @@ I needed a higer quantity of data to grasp complex features of tumor and non-tum
     - Fourth Iteration  
       
       - Before vs After Data Augmentation!=
+
+
+
+
+
+
+
+t1
+
+<img src="/Users/astroahad/Library/Application Support/typora-user-images/image-20210826114933093.png" alt="image-20210826114933093" style="zoom:50%;" />
+
+
+
+![image-20210826115057706](README.assets/image-20210826115057706.png)
