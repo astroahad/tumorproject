@@ -84,7 +84,5 @@ I needed a higer quantity of data to grasp complex features of tumor and non-tum
 
 
 
-t1
-
 
 
