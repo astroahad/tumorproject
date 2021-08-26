@@ -84,7 +84,6 @@ I needed a higer quantity of data to grasp complex features of tumor and non-tum
 
 t1
 
-<img src="/Users/astroahad/Library/Application Support/typora-user-images/image-20210826114933093.png" alt="image-20210826114933093" style="zoom:50%;" />
 
 
 
