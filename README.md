@@ -70,7 +70,7 @@ Zoom Level = 0
 
 
 
-![Mix](README.assets/download (1).png)
+![mix](README.assets/mix-9968581.png)
 
 Since I was using the a Zoom Level of 0 (the highest resolution) I decided to use a relatively high patch size of 180 x 180.  In addition, a zoom level of 0 promised to give a greater localization of the tumor cells for our model.
 
