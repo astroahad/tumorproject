@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "afed23ef38c29de7",
+        "id": "d6a650d707fffdb7",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,7 +86,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "afed23ef38c29de7",
+  "active": "d6a650d707fffdb7",
   "lastOpenFiles": [
     "README.md",
     "figures_plots/Screenshot 2021-08-24 001618.png",
