@@ -1,10 +1,8 @@
-$16^2$
-\16^2\
-
 ```javascript
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ```
 
+- $e=mc^2$
 - 
 - Preprocessing was one of the major part of the project. 
 
@@ -21,16 +19,10 @@ Image depticting tumor slide 08 opened in the ASAP software
 
 ### capture
 
-
-
 ---
-
-
 
 Selection of the the tumor
 ![Capture3](README.assets/Capture3-9960964.png)
-
-
 
 Using this approach, I was able to cherry pick tumor cells make a dataset of extremely high quality. 
 
@@ -48,13 +40,9 @@ As a result I only saw an accuracy of approximately 69% with the model showing a
 
 ## Basic CNN Model with Manual Annotations
 
-
-
 Model Specifications:
 
 Dataset Size = 110 for both tumor and non-tumor cells
-
-
 
 Validation Split = 0.2 
 
@@ -66,23 +54,11 @@ Patch Size = 180 x 180
 
 Zoom Level = 0
 
-
-
-
-
-
-
-
-
 ![Normal](README.assets/download.png)
-
-
 
 ![mix](README.assets/mix-9968581.png)
 
 Since I was using the a Zoom Level of 0 (the highest resolution) I decided to use a relatively high patch size of 180 x 180.  In addition, a zoom level of 0 promised to give a greater localization of the tumor cells for our model.
-
-
 
 ### Data Collection Approach with manual annotations
 
@@ -100,19 +76,9 @@ I needed a higer quantity of data to grasp complex features of tumor and non-tum
     
         -   [ Optionally Add a confusion matrix, f1 scores, precision, accuracy, type 1 & type 2 error for this model] 
 
+## Understanding the Tif Data
 
-
-
-
-
-
-
-
-## Understanding the Tif Data 
-
-
-
-### Different Patch sizes and different Zoom levels 
+### Different Patch sizes and different Zoom levels
 
 The Camelyon 16 dataset contains a total of 400 WSI files. The WSI .tif files contain a large amount of data. Each of these WSI files consist of magnification for 9 different levels. Correspondinly, with an increas in a level, the resolution of the image doubles, giving us twice the amount of data to work with. 
 
@@ -122,30 +88,15 @@ Because these files our so large, for my model i selected a subset of 10 WSI fil
 
 Considering that each WSI file has \(10^6)
 
-
-
 ```latex
 \(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
-
-
-
-
-
 ```
 
-
-
 $\alpha$
-
-
-
-
 
 With an increase in the level of magnification, the pixel resolution doubles in resolution.
 
 Patch size 32 
-
-
 
 ![patch_zoom_0](README.assets/patch_zoom_0.png)
 
@@ -167,8 +118,6 @@ Patch size 32
 
 ![patch_zoom_9](README.assets/patch_zoom_9.png)
 
-
-
 Patch size 300
 
 ![patch_zoom_0](README.assets/patch_zoom_0-9978188.png)
@@ -189,11 +138,12 @@ Patch size 300
 
 ![patch_zoom_8](README.assets/patch_zoom_8-9978188.png)
 
-
+- 
 
 - 
-- 
+
 - Second approach – for dataset/patch processing 
+  
   - It was clear that the data collection approach would be unsuitable for this type of problem  
   
   - The second approach we developed involved creating mask files of the CAMELYON dataset. 
@@ -219,12 +169,3 @@ Patch size 300
     - Fourth Iteration  
       
       - Before vs After Data Augmentation!=
-
-
-
-
-
-
-
-
-
