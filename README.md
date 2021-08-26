@@ -132,6 +132,8 @@ Considering that each WSI file has \(10^6)
 
 
 
+$\alpha$
+
 
 
 
