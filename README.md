@@ -9,18 +9,20 @@
    For the Meastasis data points, I individually selected coordinate points in the image after looking at the boundary boxes that had been created by the pathologists.
 
 Image depticting tumor slide 08 opened in the ASAP software
-![[Screenshot 2021-08-24 001618.png]] 
+![[Screenshot 2021-08-24 001618.png]] ![Screenshot 2021-08-24 001618](README.assets/Screenshot 2021-08-24 001618.png)![Capture3](README.assets/Capture3.png)
 
 ### capture
 
-![Capture2.png](/Users/astroahad/Documents/GitHub/tumorproject/assets/98b20fc05d11d5d0ef6be2d9fd91c6f1d9079522.png)
+
+
+---
+
+
 
 Selection of the the tumor
-![[Capture3.png]]
+![Capture3](README.assets/Capture3-9960964.png)
 
-## test
 
-![](/Users/astroahad/Documents/GitHub/tumorproject/assets/b65536be5a53b3ec6ef974050b9b2380262b740f.png)
 
 Using this approach, I was able to cherry pick tumor cells make a dataset of extremely high quality. 
 
@@ -86,5 +88,3 @@ t1
 
 
 
-
-![image-20210826115057706](README.assets/image-20210826115057706.png)
