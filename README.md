@@ -52,11 +52,45 @@ Patch Size = 180 x 180
 
 Zoom Level = 0
 
+
+
+Example of a Normal Patch 
+
 ![Normal](README.assets/download.png)
+
+
+
+Example of a Tumor Patch:
+
+![download](../../../Downloads/download.png)
+
+
+
+The data we feeded into our Basic CNN Model looks like:
 
 ![mix](README.assets/mix-9968581.png)
 
 Since I was using the a Zoom Level of 0 (the highest resolution) I decided to use a relatively high patch size of 180 x 180.  In addition, a zoom level of 0 promised to give a greater localization of the tumor cells for our model.
+
+
+
+
+
+
+
+![image-20210827184220842](README.assets/image-20210827184220842.png)
+
+
+
+
+
+![image-20210827184254811](README.assets/image-20210827184254811.png)
+
+
+
+![test](../../../Downloads/test.png)
+
+
 
 ### Data Collection Approach with manual annotations
 
