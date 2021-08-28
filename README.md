@@ -1,9 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-=======
-
-- Preprocessing was one of the major part of the project. 
-
 ## Data Collection
 
 ### Cherry Picking approach, using the Automated Slide Analysis Platform (ASAP)
@@ -128,19 +122,11 @@ $\alpha$
 
 With an increase in the level of magnification, the pixel resolution doubles in resolution.
 
-Patch size 32 
+##### Patch size 32 
 
 
 
-```xml
-<p float="left">
-  <img src="/img1.png" width="100" />
-![patch_zoom_0](README.assets/patch_zoom_0.png)
 
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
-</p>
-```
 
 ![patch_zoom_0](README.assets/patch_zoom_0.png)
 
@@ -162,7 +148,7 @@ Patch size 32
 
 ![patch_zoom_9](README.assets/patch_zoom_9.png)
 
-Patch size 300
+##### Patch size 300
 
 ![patch_zoom_0](README.assets/patch_zoom_0-9978188.png)
 
@@ -184,32 +170,34 @@ Patch size 300
 
 
 
-- 
 
-- Second approach – for dataset/patch processing 
+
+
+
+
+
+## ## Second approach to patch processing - Masking
+
+ 
+
+It was clear that the data collection approach would be unsuitable for this type of problem . The second approach we developed involved creating mask tif files of the CAMELYON dataset. We used the boundary boxes that were made by the pathologists and simply assigned a number 1 or 0 for each pixel. We did this process for each level and were able to produce a tif file that would contain a binary represntation of wether each pixel was a Metastasis pixel or a non-Metastasis one. Since this was an automated process that involved very little oversight of the batch processing. Examining the biinary representation along with the tif file, we were able to simply move a sliding "patch" window across the tumor slide and categorize the patches as tumor vs no-tumor.  
+
+This process made it possible to collect a much larger amount of data and have a much more sophisticated model. We were only limited by our processing capacity and time. 
+
+- For our first run we made use of only two WSI slides. We used a zoom level of 3 and cropped patches with a 32 x 32 dimension 
+
+- [Add the simple model accuracy/validation graph] 
+
+- [Add a confusion matrix, f1 scores, precision, accuracy, type 1 & type 2 error for this model]   
+
+- Third iteration,  
   
-  - It was clear that the data collection approach would be unsuitable for this type of problem  
+  - For the next iteration of out model we chose a Zoom Level of 5 for generating out cancer dataset and a patch size of 16 x 16  
   
-  - The second approach we developed involved creating mask files of the CAMELYON dataset. 
-    
-    - Since this was an automated process that involved very little oversight of the batch processing  
-    
-    - This made it possible to collect a much larger amount of data and have a much more sophisticated model  
-    
-    - For our first run we made use of only two WSI slides. We used a zoom level of 3 and cropped patches with a 32 x 32 dimension 
-    
-    - [Add the simple model accuracy/validation graph] 
-    
-    - [Add a confusion matrix, f1 scores, precision, accuracy, type 1 & type 2 error for this model]   
+  - We realized that this would not only allow us to have a much larger dataset but also facilitate in a better localization of the tumor region 
   
-  - Third iteration,  
+  - Result 
+  
+  - Fourth Iteration  
     
-    - For the next iteration of out model we chose a Zoom Level of 5 for generating out cancer dataset and a patch size of 16 x 16  
-    
-    - We realized that this would not only allow us to have a much larger dataset but also facilitate in a better localization of the tumor region 
-    
-    - Result 
-    
-    - Fourth Iteration  
-      
-      - Before vs After Data Augmentation!=
+    - Before vs After Data Augmentation!=
